@@ -21,7 +21,7 @@ class Audi extends Car
 public class Abstract {
     public static void main(String[] args) {
 
-        Car c=new Audi();
+        Audi c=new Audi();
         c.run();
     }
     }

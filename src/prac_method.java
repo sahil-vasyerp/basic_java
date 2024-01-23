@@ -59,8 +59,6 @@ public class prac_method {
 
 //        creating object to access another class-----------------------------
 
-
-
         if (checkAge(ageInput))
         {
             movieCheck movieCheck = new movieCheck();
