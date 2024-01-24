@@ -1,7 +1,7 @@
 public class StringManipulation {
     public static void main(String[] args) {
-        String name="saihl";
-        String nameChanges=name.replace("saihl","sahil");
+        String name = "saihl";
+        String nameChanges = name.replace("saihl", "sahil");
 
         System.out.println(nameChanges);
         System.out.println(nameChanges.toUpperCase());
@@ -9,7 +9,7 @@ public class StringManipulation {
 
 
 //        string builder append
-        StringBuilder stringBuilder=new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
 
         stringBuilder.append(nameChanges);
 //        reverse string-----------------------------------
